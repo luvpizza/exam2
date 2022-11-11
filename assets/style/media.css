@@ -1,4 +1,10 @@
 @media (max-width: 768px){
+    .container{
+        width: 768px;
+    }
+    .latest_container{
+        max-width: 768px;
+    }
     .header{
         height: 70px;
     }
@@ -6,11 +12,15 @@
         display: none;
     }
     .latest_big{
-        height: calc(100vh - 70px);
+        height: 900px;
     }
     .big_grid{
         grid-template-columns: none;
         grid-template-rows: 2fr 2fr;
         row-gap: 20px;
+    }
+    .cards_grid{
+        grid-template-columns: 1fr;
+        gap: 10px;
     }
 }
