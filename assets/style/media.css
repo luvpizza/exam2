@@ -1,0 +1,16 @@
+@media (max-width: 768px){
+    .header{
+        height: 70px;
+    }
+    .header_nav{
+        display: none;
+    }
+    .latest_big{
+        height: calc(100vh - 70px);
+    }
+    .big_grid{
+        grid-template-columns: none;
+        grid-template-rows: 2fr 2fr;
+        row-gap: 20px;
+    }
+}
